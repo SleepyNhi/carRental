@@ -1,0 +1,191 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+.content {
+    width: 300px;
+    height: 300px;
+    background-color: #F5A9BC;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 400px;
+   text-align: center;
+   border:1px solid black;
+
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+ 
+}
+.content a {
+    display: block;
+    text-decoration: none;
+    color:#9A2EFE;
+}
+.content a:hover {
+    color:red;
+    opacity: 0.5;
+}
+#centerid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border:1px solid black;
+    align-content: center;
+
+
+}
+
+#heading h1{
+   text-align: center;
+
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: black; 
+}
+
+#left {
+    
+    width: 10%;
+    height: 100%;
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    letter-spacing: 1px;
+  
+
+
+}
+
+
+#left ul {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    padding-left: 30px;
+
+}
+#left li {
+   display: list-item;
+   
+}
+
+#left a {
+    display: block;
+    padding-top: 30px;
+    text-decoration: none;
+    color:#9A2EFE;
+   
+}
+#left a:hover{
+    color:red;
+    opacity: 0.6;
+}
+
+#childli li{
+    display: none;
+}
+#childli li:hover {
+    display: list-item;
+}
+
+
+
+#left img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin:auto;
+}
+#left h1{
+    color:#29088A;
+}
+
+#right {
+
+    width: 85%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    background: #FAFAFA;
+
+}
+
+#right h1{
+    color:#9A2EFE;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+
+
+
+
+
+
+
+.flex-wrapper {
+  display: flex;
+  height: 80vh;
+
+}
+
+.flex-wrapper a {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: flex .5s;
+  padding-top: 50px;
+}
+
+.flex-wrapper .one {
+  background-image: url(images/1.jpg);
+
+}   
+
+.flex-wrapper .two {
+  background-image: url(images/2.jpg);
+
+}
+
+.flex-wrapper .three {
+  background-image: url(images/3.jpg);
+
+}
+
+.flex-wrapper .four {
+  background-image: url(images/4.jpg);
+
+}
+
+.flex-wrapper .five {
+  background-image: url(images/5.jpeg);
+
+}
+
+.flex-wrapper a:hover {
+  flex: 3;
+}
+
+
