@@ -24,7 +24,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
-
+        <style>
+            
+        </style>
     </head>
     <body>
         <div id="loginHeader"><marquee><p>Until the end of July 25% OFF SUVs.  Free Rides on first booking. Hurry Now</p></marquee><?php echo $customerID?></div>

@@ -23,6 +23,7 @@
 	$result=mysqli_query($connection,$res);
 	echo "<h1><center><br>".$Ctype."&nbsp;Cars</h1><br><br>";
         echo "Rate updated!";
+        
 ?>
 <center>
 
