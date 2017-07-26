@@ -8,9 +8,17 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-        <style>
-         
-        </style>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+               <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+                <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+                <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
     </head>
     <body>
         <?php
@@ -26,7 +34,7 @@ and open the template in the editor.
          </tr>
 
          <tr><td>ENTRY DATE*</td>
-         <td><input type="time" name="entry_time" required="required"></td>
+         <td><input type="time" name="entry_time" id="datepicker" required="required"></td>
          </tr>
 
          <tr>
