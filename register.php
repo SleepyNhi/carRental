@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>  
 <html>
 <head>
@@ -8,6 +9,7 @@
 <body>  
 
 <?php
+
 include 'nav_tab.php';
 // define variables and set to empty values
 $userpermission = "guest";

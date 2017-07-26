@@ -1,3 +1,17 @@
+<?php 
+session_start(); ?>
+<?php 
+if(isset($_COOKIE['user'])){
+   $customerID = "<a href='customerInfo.php'> Welcome".$_COOKIE['user']." </a>";
+   $customerID2 = "<a href='logout.php'> logout </a>";
+   echo $customerID2;
+   
+
+} else {
+    $customerID = "<a href='login.php'> Login </a>";
+
+}
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -13,7 +27,7 @@ and open the template in the editor.
 
     </head>
     <body>
-        <div id="loginHeader"><marquee><p>Until the end of July 25% OFF SUVs.  Free Rides on first booking. Hurry Now</p></marquee><a href="login.php">Log In</a></div>
+        <div id="loginHeader"><marquee><p>Until the end of July 25% OFF SUVs.  Free Rides on first booking. Hurry Now</p></marquee><?php echo $customerID?></div>
 
             <div class="menu">
                 <ul>

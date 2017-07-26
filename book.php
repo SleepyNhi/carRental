@@ -38,7 +38,6 @@ and open the template in the editor.
         
         $res="SELECT * FROM carsdata";
 	$result=mysqli_query($connection,$res);
-
                 
 	?>
         <div  class="bookbody">
