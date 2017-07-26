@@ -12,20 +12,9 @@ Database Systems Project - 2 - Car Rental system
      
     </head>
     <body>
-        <div id="loginHeader"><marquee><p>Until the end of July 25% OFF SUVs.  Free Rides on first booking. Hurry Now</p></marquee><a href="login.html">Log In</a></div>
-
-            <div class="menu">
-                <ul>
-                    <li id="active"><a href="">Home</a></li>
-                    <li><a href="customer.html">Customers</a></li>
-                    <li><a href="chauffeur.html">Chauffeur</a></li>
-                    <li><a href="cars.html">Cars</a></li>
-                    <li><a href="book.html">Book Car</a></li>
-                    <li><a href="return.html">Return Car</a></li>
-                    <li><a href="payment.html">Payment</a></li>
-                </ul>
-            </div>
+       
         <?php
+        include 'navigation_tab.html';
         include 'homepage.html';
         ?>
         

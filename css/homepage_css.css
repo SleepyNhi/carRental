@@ -89,7 +89,7 @@ html, body {
     display: block;
     padding-top: 30px;
     text-decoration: none;
-    color:#9A2EFE;
+    color: black;
    
 }
 #left a:hover{
@@ -145,8 +145,26 @@ html, body {
   height: 80vh;
 
 }
-
 .flex-wrapper a {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: flex .5s;
+  padding-top: 200px;
+}
+
+.flex-wrapper2 {
+  display: flex;
+  height: 40vh;
+
+}
+
+.flex-wrapper2 a {
   position: relative;
   flex: 1;
   text-align: center;
@@ -162,24 +180,32 @@ html, body {
 .flex-wrapper .one {
   background-image: url(images/1.jpg);
 
-}   
+}
+.flex-wrapper .flight {
+  background-image: url(images/flight.jpg);
 
-.flex-wrapper .two {
+} 
+.flex-wrapper .park {
+  background-image: url(images/park.jpg);
+
+}  
+
+.flex-wrapper2 .two {
   background-image: url(images/2.jpg);
 
 }
 
-.flex-wrapper .three {
+.flex-wrapper2 .three {
   background-image: url(images/3.jpg);
 
 }
 
-.flex-wrapper .four {
+.flex-wrapper2 .four {
   background-image: url(images/4.jpg);
 
 }
 
-.flex-wrapper .five {
+.flex-wrapper2 .five {
   background-image: url(images/5.jpeg);
 
 }
@@ -189,3 +215,6 @@ html, body {
 }
 
 
+.flex-wrapper2 a:hover {
+  flex: 3;
+}
