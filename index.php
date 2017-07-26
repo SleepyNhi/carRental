@@ -14,7 +14,7 @@ Database Systems Project - 2 - Car Rental system
     <body>
        
         <?php
-        include 'navigation_tab.html';
+        include 'nav_tab.php';
         include 'homepage.html';
         ?>
         

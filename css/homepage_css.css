@@ -118,7 +118,7 @@ html, body {
 
 #right {
 
-    width: 85%;
+    width: 100%;
     height: auto;
     position: absolute;
     right: 0;
@@ -142,7 +142,7 @@ html, body {
 
 .flex-wrapper {
   display: flex;
-  height: 80vh;
+  height: 70vh;
 
 }
 .flex-wrapper a {
@@ -211,10 +211,10 @@ html, body {
 }
 
 .flex-wrapper a:hover {
-  flex: 3;
+  flex: 2;
 }
 
 
 .flex-wrapper2 a:hover {
-  flex: 3;
+  flex: 2;
 }

@@ -74,7 +74,7 @@ a:hover {
 }
 .allContent {
 	width:800px;
-	margin:0 auto;
+	margin:auto;
 	padding:130px 0 0 0;
 }
 .leftContent p, .rightContent p {
@@ -82,16 +82,16 @@ a:hover {
 }
 .leftContent {  
 	float:left;
-	width:400px;
+	width:300px;
 	background:url(images/leftContent.png) repeat-y left top;
 }
 .rightContent {
-	margin-left:436px;
-	width:364px;
+        float: right;
+        width:364px;
 	background:url(images/rightContent.png) repeat-y left top;
 } 
 .rightContent ul {
-	margin:0;
+	margin:auto;
 	padding:0 40px;
 }
 .rightContent li {

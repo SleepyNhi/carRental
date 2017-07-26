@@ -8,13 +8,34 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <style>
+            .leftContent1,.rightContent1 {
+                width: 200px;
+                display: block;
+                margin-top: 100px;
+                color:black;
+                margin: auto;
+                
+            }
+            
+            .leftContent1 {
+                float:left;
+                margin-left: 100px;
+            }
+            .carsbody{
+                width: 800px;
+                margin: auto;
+                margin-top: 100px;
+            }
+            
+        </style>
     </head>
     <body>
         <?php
-            include 'navigation_tab.html'; 
+            include 'nav_tab.php'; 
         ?>
-        
-        <div class="leftContent">
+        <div class="carsbody">
+        <div class="leftContent1">
             <b><form action="registercar.php" method="post" >
                 <h1> ADD CAR </h1>
                 License No: <input type="text" name="lno"/><br><br>
@@ -42,7 +63,7 @@ and open the template in the editor.
         </div>	
 
 
-                    <div class="rightContent">
+                    <div class="rightContent1">
                     <h1> VIEW CARS & RATES</h1>
                     <form action="viewcar.php" method="post">
                         Select Car type to view: 
@@ -74,5 +95,6 @@ and open the template in the editor.
             <input type="submit" name="submit1" value="Update">
             </form>
 	</div>
+        </div>
     </body>
 </html>

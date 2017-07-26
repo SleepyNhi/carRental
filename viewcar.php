@@ -4,7 +4,7 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
 <body>
-<?php include 'navigation_tab.html'; ?>
+<?php include 'nav_tab.php'; ?>
     
 <?php
 	$database_host = "localhost";
