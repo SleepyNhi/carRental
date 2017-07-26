@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            include 'navigation_tab.html';
+            include 'nav_tab.php';
         ?>
         
         <div class="leftcontent">
